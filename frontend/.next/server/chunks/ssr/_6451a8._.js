@@ -166,7 +166,7 @@ const __TURBOPACK__default__export__ = {
     blurHeight: 3
 };
 }}),
-"[project]/src/app/shop/page.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
+"[project]/src/app/shop/[shop]/page.js [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: __turbopack_require_stub__ } = __turbopack_context__;
@@ -175,14 +175,12 @@ __turbopack_esm__({
     "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-// import { useSearchParams } from 'next/navigation';
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$subCategorySidebar$2f$page$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/subCategorySidebar/page.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$img$2f$hero$2d$img$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$img$2f$hero$2d$img$2e$jpg__$5b$app$2d$ssr$5d$__$28$static$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/img/hero-img.jpg.mjs { IMAGE => "[project]/src/img/hero-img.jpg [app-ssr] (static)" } [app-ssr] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$account$2f$page$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/app/account/page.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/sonner/dist/index.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/axios/lib/axios.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/menu.js [app-ssr] (ecmascript) <export default as Menu>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/x.js [app-ssr] (ecmascript) <export default as X>");
@@ -196,57 +194,27 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 ;
 ;
-;
-;
-// const renderStars = (count) =>
-//   Array.from({ length: count }, (_, i) => (
-//     <StarIcon key={i} className="h-5 w-5 text-yellow-500 inline" />
-//   ));
 const Shop = ()=>{
     const [menuOpen, setMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     // const [price, setPrice] = useState(100000);
-    const [selectedCategory, setSelectedCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("All");
     const [categoryNames, setCategoryNames] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([
         "All"
     ]);
+    const [selectedCategory, setSelectedCategory] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("All");
     const [products, setProducts] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
+    const searchParams = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSearchParams"])();
+    const { shop } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useParams"])();
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
-    // const searchParams = useSearchParams();
-    const { id, subCategory, category } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useParams"])();
-    // const id = searchParams.get("id");
-    const { mainCategory } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useParams"])();
-    // const mainCategory=searchParams.get("mainCategory")
-    // const subCategory = searchParams.get("subCategory");
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        // const categoryFromUrl = searchParams.get("category");
-        const categoryFromUrl = category;
-        if (categoryFromUrl) {
-            setSelectedCategory(categoryFromUrl);
-            console.log("this", categoryFromUrl);
+        const categoryFromUrl = searchParams.get("shop");
+        const decodecategory = decodeURIComponent(shop);
+        let [key, value] = decodecategory.split("=");
+        if (decodecategory) {
+            setSelectedCategory(value);
         }
     }, [
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useParams"]
+        shop
     ]);
-    const getAllProducts = async ()=>{
-        if (mainCategory) {
-            try {
-                const { data } = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$account$2f$page$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["axiosInstance"].get("/api/v1/productFinal/search?mainCategory=" + mainCategory);
-                setProducts(data || []);
-            } catch (error) {
-                console.log("error:", error.message);
-            }
-        } else {
-            try {
-                const { data } = await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].get("https://api.mrandmrsperfecttrips.in/api/v1/products/productsFinal", {
-                    withCredentials: true
-                });
-                setProducts(data.msg || []);
-            } catch (error) {
-                console.error("Error fetching products:", error.message);
-            }
-        }
-    };
-    // let categoryNames = ["All"];
     const fetchMainCategory = async ()=>{
         try {
             const response = await __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$account$2f$page$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["axiosInstance"].get("/api/v1/products/mainCategory?limit=5");
@@ -260,13 +228,34 @@ const Shop = ()=>{
                 ...categoryData
             ]);
         } catch (error) {
-            __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sonner$2f$dist$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["toast"].error("Failed to load categories.");
+            toast.error("Failed to load categories.");
             console.error(error);
+        }
+    };
+    const searchProducts = async ()=>{
+        let mainCategory;
+        let keyValue;
+        const MainCategorydecodedParam = decodeURIComponent(shop);
+        const [mainCategorykey, mainCategoryvalue] = MainCategorydecodedParam.split("=");
+        if (mainCategorykey == "maincategory") {
+            if (mainCategoryvalue) {
+                keyValue = "mainCategory";
+                mainCategory = mainCategoryvalue;
+            }
+        } else {
+            keyValue = "subCategory";
+            mainCategory = mainCategoryvalue;
+        }
+        try {
+            const { data } = await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].get(`https://api.mrandmrsperfecttrips.in/api/v1/products/productsFinal/search?${keyValue}=${mainCategory}`);
+            setProducts(data);
+        } catch (error) {
+            console.log("searching error", error.message);
         }
     };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         fetchMainCategory();
-        getAllProducts();
+        searchProducts();
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "flex flex-col items-center mt-24 min-h-screen",
@@ -281,8 +270,8 @@ const Shop = ()=>{
                                 className: "text-2xl font-bold hover:border-b-2 border-red-800 transition-all duration-300",
                                 children: "Shop"
                             }, void 0, false, {
-                                fileName: "[project]/src/app/shop/page.js",
-                                lineNumber: 91,
+                                fileName: "[project]/src/app/shop/[shop]/page.js",
+                                lineNumber: 82,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -291,20 +280,20 @@ const Shop = ()=>{
                                     className: "h-8 w-8 cursor-pointer",
                                     onClick: ()=>setMenuOpen(false)
                                 }, void 0, false, {
-                                    fileName: "[project]/src/app/shop/page.js",
-                                    lineNumber: 96,
+                                    fileName: "[project]/src/app/shop/[shop]/page.js",
+                                    lineNumber: 87,
                                     columnNumber: 15
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                     className: "h-8 w-8 cursor-pointer",
                                     onClick: ()=>setMenuOpen(true)
                                 }, void 0, false, {
-                                    fileName: "[project]/src/app/shop/page.js",
-                                    lineNumber: 101,
+                                    fileName: "[project]/src/app/shop/[shop]/page.js",
+                                    lineNumber: 92,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/src/app/shop/page.js",
-                                lineNumber: 94,
+                                fileName: "[project]/src/app/shop/[shop]/page.js",
+                                lineNumber: 85,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -312,7 +301,6 @@ const Shop = ()=>{
                                 children: categoryNames && categoryNames.length > 1 && categoryNames.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         className: `text-xl font-semibold transition-all ${selectedCategory === category ? "text-red-500" : "text-white hover:text-red-500"}`,
                                         onClick: ()=>{
-                                            setSelectedCategory(category);
                                             if (category === "All") {
                                                 router.push(`/shop`, {
                                                     scroll: false
@@ -322,22 +310,23 @@ const Shop = ()=>{
                                                     scroll: false
                                                 });
                                             }
+                                            setSelectedCategory(category);
                                         },
                                         children: category
                                     }, category, false, {
-                                        fileName: "[project]/src/app/shop/page.js",
-                                        lineNumber: 111,
+                                        fileName: "[project]/src/app/shop/[shop]/page.js",
+                                        lineNumber: 102,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
-                                fileName: "[project]/src/app/shop/page.js",
-                                lineNumber: 107,
+                                fileName: "[project]/src/app/shop/[shop]/page.js",
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/src/app/shop/page.js",
-                        lineNumber: 90,
+                        fileName: "[project]/src/app/shop/[shop]/page.js",
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this),
                     menuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -360,13 +349,13 @@ const Shop = ()=>{
                                 },
                                 children: category
                             }, category, false, {
-                                fileName: "[project]/src/app/shop/page.js",
-                                lineNumber: 141,
+                                fileName: "[project]/src/app/shop/[shop]/page.js",
+                                lineNumber: 132,
                                 columnNumber: 17
                             }, this))
                     }, void 0, false, {
-                        fileName: "[project]/src/app/shop/page.js",
-                        lineNumber: 137,
+                        fileName: "[project]/src/app/shop/[shop]/page.js",
+                        lineNumber: 128,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -378,19 +367,19 @@ const Shop = ()=>{
                             objectFit: "cover",
                             className: "opacity-40"
                         }, void 0, false, {
-                            fileName: "[project]/src/app/shop/page.js",
-                            lineNumber: 165,
+                            fileName: "[project]/src/app/shop/[shop]/page.js",
+                            lineNumber: 156,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "[project]/src/app/shop/page.js",
-                        lineNumber: 164,
+                        fileName: "[project]/src/app/shop/[shop]/page.js",
+                        lineNumber: 155,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "[project]/src/app/shop/page.js",
-                lineNumber: 89,
+                fileName: "[project]/src/app/shop/[shop]/page.js",
+                lineNumber: 80,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -403,18 +392,18 @@ const Shop = ()=>{
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "bg-white rounded-lg shadow-md p-4 mb-6",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$subCategorySidebar$2f$page$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                    fileName: "[project]/src/app/shop/page.js",
-                                    lineNumber: 203,
+                                    fileName: "[project]/src/app/shop/[shop]/page.js",
+                                    lineNumber: 194,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
-                                fileName: "[project]/src/app/shop/page.js",
-                                lineNumber: 177,
+                                fileName: "[project]/src/app/shop/[shop]/page.js",
+                                lineNumber: 168,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
-                            fileName: "[project]/src/app/shop/page.js",
-                            lineNumber: 176,
+                            fileName: "[project]/src/app/shop/[shop]/page.js",
+                            lineNumber: 167,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -427,22 +416,22 @@ const Shop = ()=>{
                                             className: "text-2xl font-semibold text-dark-blue",
                                             children: "Our Products"
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/shop/page.js",
-                                            lineNumber: 208,
+                                            fileName: "[project]/src/app/shop/[shop]/page.js",
+                                            lineNumber: 199,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-lg text-gray-600",
                                             children: "Explore our range of training gear"
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/shop/page.js",
-                                            lineNumber: 211,
+                                            fileName: "[project]/src/app/shop/[shop]/page.js",
+                                            lineNumber: 202,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/src/app/shop/page.js",
-                                    lineNumber: 207,
+                                    fileName: "[project]/src/app/shop/[shop]/page.js",
+                                    lineNumber: 198,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -457,8 +446,8 @@ const Shop = ()=>{
                                                     height: 300,
                                                     className: "w-full h-[200px] md:h-[250px] object-cover rounded-lg"
                                                 }, void 0, false, {
-                                                    fileName: "[project]/src/app/shop/page.js",
-                                                    lineNumber: 222,
+                                                    fileName: "[project]/src/app/shop/[shop]/page.js",
+                                                    lineNumber: 213,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -468,8 +457,8 @@ const Shop = ()=>{
                                                             className: "text-lg font-semibold text-gray-800 line-clamp-1",
                                                             children: product?.name
                                                         }, void 0, false, {
-                                                            fileName: "[project]/src/app/shop/page.js",
-                                                            lineNumber: 230,
+                                                            fileName: "[project]/src/app/shop/[shop]/page.js",
+                                                            lineNumber: 221,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -479,8 +468,8 @@ const Shop = ()=>{
                                                                 product?.variant[0].finalPrice
                                                             ]
                                                         }, void 0, true, {
-                                                            fileName: "[project]/src/app/shop/page.js",
-                                                            lineNumber: 233,
+                                                            fileName: "[project]/src/app/shop/[shop]/page.js",
+                                                            lineNumber: 224,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -488,20 +477,20 @@ const Shop = ()=>{
                                                             className: "w-full py-2 px-4 rounded-lg border-2 border-blue-800 hover:bg-blue-800 hover:text-white text-blue-800 font-semibold transition-colors duration-300",
                                                             children: "Buy Now"
                                                         }, void 0, false, {
-                                                            fileName: "[project]/src/app/shop/page.js",
-                                                            lineNumber: 237,
+                                                            fileName: "[project]/src/app/shop/[shop]/page.js",
+                                                            lineNumber: 228,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "[project]/src/app/shop/page.js",
-                                                    lineNumber: 229,
+                                                    fileName: "[project]/src/app/shop/[shop]/page.js",
+                                                    lineNumber: 220,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, index, true, {
-                                            fileName: "[project]/src/app/shop/page.js",
-                                            lineNumber: 218,
+                                            fileName: "[project]/src/app/shop/[shop]/page.js",
+                                            lineNumber: 209,
                                             columnNumber: 19
                                         }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "col-span-full flex items-center justify-center py-12",
@@ -509,47 +498,47 @@ const Shop = ()=>{
                                             className: "text-gray-500 text-lg",
                                             children: "No products available."
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/shop/page.js",
-                                            lineNumber: 248,
+                                            fileName: "[project]/src/app/shop/[shop]/page.js",
+                                            lineNumber: 239,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
-                                        fileName: "[project]/src/app/shop/page.js",
-                                        lineNumber: 247,
+                                        fileName: "[project]/src/app/shop/[shop]/page.js",
+                                        lineNumber: 238,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/src/app/shop/page.js",
-                                    lineNumber: 215,
+                                    fileName: "[project]/src/app/shop/[shop]/page.js",
+                                    lineNumber: 206,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "[project]/src/app/shop/page.js",
-                            lineNumber: 206,
+                            fileName: "[project]/src/app/shop/[shop]/page.js",
+                            lineNumber: 197,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "[project]/src/app/shop/page.js",
-                    lineNumber: 175,
+                    fileName: "[project]/src/app/shop/[shop]/page.js",
+                    lineNumber: 166,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/src/app/shop/page.js",
-                lineNumber: 174,
+                fileName: "[project]/src/app/shop/[shop]/page.js",
+                lineNumber: 165,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "[project]/src/app/shop/page.js",
-        lineNumber: 88,
+        fileName: "[project]/src/app/shop/[shop]/page.js",
+        lineNumber: 79,
         columnNumber: 5
     }, this);
 };
 const __TURBOPACK__default__export__ = Shop;
 }}),
-"[project]/src/app/shop/page.js [app-rsc] (ecmascript, Next.js server component, client modules ssr)": ((__turbopack_context__) => {
+"[project]/src/app/shop/[shop]/page.js [app-rsc] (ecmascript, Next.js server component, client modules ssr)": ((__turbopack_context__) => {
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
@@ -619,4 +608,4 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 
 };
 
-//# sourceMappingURL=_ed0773._.js.map
+//# sourceMappingURL=_6451a8._.js.map
